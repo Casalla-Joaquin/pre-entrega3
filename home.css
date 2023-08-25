@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*acá empieza el codigo---------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* fuentes que tengo para usar
+font-family: 'Crimson Text', serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.body{
+    position: relative;
+}
+.buscador{
+    min-height: 60px;
+    min-width: 100%;
+    background-color: rgb(30, 124, 231);
+    font-family:'Poppins', sans-serif;
+}
+
+.buscador label{
+    color: aliceblue;
+
+    font-size: 1.3em;
+    margin-left: 250px;
+    filter: drop-shadow(3px 3px 10px rgb(46, 45, 45));
+}
+
+.buscador input{
+    border-color: rgb(226, 226, 226);
+    filter: drop-shadow(1px 1px 7px rgb(87, 85, 85));
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.buscador button{
+    color: rgb(252, 252, 252);
+    font-weight: 300px;
+    border-radius: 9px;
+    font-size: 1em;
+    min-height: 30px;
+    min-width: 70px;
+    background-color: rgb(70, 71, 73);
+}
+.creador{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 70px;
+   
+}
+.contenedor{
+    min-height: 400px;
+    min-width: 400px;
+    background-color: rgb(6, 122, 223);
+    font-family:'Open Sans', sans-serif;
+    color: aliceblue;
+    font-weight: 2em;
+    border-radius: 45px;
+}
+.contenedor h1{
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2.2em;
+    padding-top: 25px;
+    margin-left: 12%;
+}
+.contenedor span{
+    font-size: 1.5em;
+    margin-left: 90px;
+}
+.contenedor input{
+    margin-left: 25%;
+    margin-right: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.contenedor button{
+    color: rgb(252, 252, 252);
+    font-size: 2.4em;
+    margin-top: 50px;
+    margin-left: 25%;
+    border-radius: 9px;
+    min-height: 70px;
+    min-width: 150px;
+    background-color: rgb(170, 26, 26);
+}
+
+
+.alerta{
+    z-index: 8;
+    position: absolute;
+    background-color: blue;
+    color: aliceblue;
+    min-height: 400px;
+    min-width: 200px;
+}
+.cartel{
+    background-color: beige;
+}
+/*    */
